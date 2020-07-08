@@ -1,0 +1,26 @@
+{
+  "name": "mkt.tlbs.ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "bankai build index.js",
+    "create": "choo-scaffold",
+    "inspect": "bankai inspect index.js",
+    "start": "bankai start index.js",
+    "test": "standard && npm run test-deps",
+    "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
+  },
+  "dependencies": {
+    "choo": "^7.1.0",
+    "choo-service-worker": "^3.0.0",
+    "sheetify": "^8.0.0",
+    "tachyons": "^4.12.0"
+  },
+  "devDependencies": {
+    "bankai": "^9.15.3",
+    "choo-devtools": "^3.0.4",
+    "choo-scaffold": "^1.2.0",
+    "dependency-check": "^4.1.0",
+    "standard": "^14.3.4"
+  }
+}
