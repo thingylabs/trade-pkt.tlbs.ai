@@ -1,4 +1,4 @@
-# mkt.tlbs.ai
+# trade-pkt.tlbs.ai
 PacketCoin marketplace
 
 ## Commands
