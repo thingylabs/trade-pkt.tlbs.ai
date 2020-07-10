@@ -11,7 +11,7 @@ function view (state, emit) {
     <body>
       <section class="flex center">
         <div class="mv5 center">
-          <img src="assets/404.webp" />
+          <img src="assets/gfx/404.webp" />
           <h1 class="gold">Route not found.</h1>
           <a class="dim" href="/">Back to main.</a>
         </div>
